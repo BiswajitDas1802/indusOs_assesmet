@@ -1,0 +1,33 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "products":[
+    { "name": "iphone", "category": "Electronics", "price": "121" },
+    { "name": "zara", "category": "Clothing", "price": "121" },
+    { "name": "Dahiwada", "category": "Food", "price": "121" },
+    { "name": "pencil", "category": "Stationary", "price": "121" },
+    { "name": "moto", "category": "Electronics", "price": "121" },
+    { "name": "za", "category": "Clothing", "price": "121" },
+    { "name": "Chicken", "category": "Food", "price": "121" },
+    { "name": "rubber", "category": "Stationary", "price": "121" },
+    { "name": "Mi", "category": "Electronics", "price": "121" },
+    { "name": "Pant", "category": "Clothing", "price": "121" },
+    { "name": "Lamb", "category": "Food", "price": "121" },
+    { "name": "rubber", "category": "Stationary", "price": "121" }
+  ]
+}
