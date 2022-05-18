@@ -63,7 +63,7 @@ function Home() {
     e.preventDefault();
     let pl = { text: text };
     axios
-      .post("http://localhost:2234/text", pl)
+      .post("https://indusosdata.herokuapp.com/text", pl)
       .then((res) => console.log(res))
       .then(() => alert("submit successfull"))
       .then(() => setText(""));

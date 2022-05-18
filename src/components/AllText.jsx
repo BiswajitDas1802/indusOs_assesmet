@@ -6,7 +6,7 @@ const AllText = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:2234/text")
+      .get("https://indusosdata.herokuapp.com/text")
       .then((res) => res["data"])
       .then((res) => setArr([...res]));
     console.log(arr);

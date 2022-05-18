@@ -9,4 +9,8 @@ export const emojiData = {
   "::grinning::": "😀",
   "::rofl::": "🤣",
   "::wink::": "😉",
+  "::grin::": "😁",
+  "::innocent::": "😇",
+  "::heart_eyes::": "😍",
+  "::thumbsup::": "👍🏻",
 };
